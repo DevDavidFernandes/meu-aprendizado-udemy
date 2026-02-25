@@ -8,12 +8,11 @@ Este repositório é o meu **Hub Central de Estudos**. Aqui documento minha evol
 
 Abaixo estão os cursos que concluí ou que estou cursando no momento:
 
-### 🌐 [Desenvolvimento Web Completo 2024 - 20 Cursos](https://github.com/DevDavidFernandes/meu-aprendizado-udemy/tree/main/curso-web-completo)
+### 🌐 [Desenvolvimento Web Completo - 20 cursos + 20 projetos](https://www.udemy.com/course/web-completo/)
 
 - **Status:** 🚧 Em progresso
 - **Principais Tecnologias:** `HTML5`, `CSS3`, `SASS`, `Bootstrap`, `JS (ES6)`, `PHP`, `MySQL`, `Git`.
 - **Descrição:** Uma jornada do zero ao profissional em desenvolvimento Full Stack.
-- [👉 Ver progresso detalhado deste curso](./curso-web-completo/README.md)
 
 ---
 
