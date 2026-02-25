@@ -1,49 +1,51 @@
-# 🚀 Meus Estudos: Desenvolvimento Web Completo (Udemy)
+# 🎓 Meu Aprendizado na Udemy
 
-Este repositório foi criado para centralizar todos os meus projetos, exercícios e anotações do curso **"Domine Web - 20 Cursos"**, ministrado na plataforma Udemy. O objetivo é manter um histórico visual e técnico da minha evolução como Desenvolvedor Full Stack.
-
----
-
-## 🛠️ Tecnologias Abordadas
-
-O curso é uma jornada completa que cobre as seguintes stacks:
-
-- **Front-end:** HTML5, CSS3, SASS, Bootstrap, JavaScript (ES6+), jQuery.
-- **Back-end:** PHP, Orientação a Objetos (OO), MVC.
-- **Banco de Dados:** MySQL.
-- **Ferramentas & Integrações:** GIT, APIs, Web Services.
+Este repositório é o meu **Hub Central de Estudos**. Aqui documento minha evolução em diferentes tecnologias, armazenando códigos de aulas, exercícios práticos e projetos completos desenvolvidos através dos cursos da plataforma Udemy.
 
 ---
 
-## 📂 Organização do Repositório
+## 📑 Sumário de Cursos
 
-Para facilitar a navegação, o repositório está organizado por módulos:
+Abaixo estão os cursos que concluí ou que estou cursando no momento:
 
-- `/01-html5-css3`: Conceitos básicos e semântica.
-- `/02-javascript-es6`: Lógica de programação e manipulação do DOM.
-- `/03-php-mysql`: Desenvolvimento server-side e persistência de dados.
-- `/projetos-praticos`: Sites e aplicações completas desenvolvidas durante as aulas.
-
-> [!TIP]
-> **Dica de Navegação:** Você pode visualizar o resultado final dos meus projetos através do meu **Hub de Estudos** clicando no link abaixo:
-> 👉 [Acesse meu Hub de Projetos aqui!](SUBSTITUA_PELO_LINK_DO_GITHUB_PAGES)
+### 🌐 [Desenvolvimento Web Completo 2024 - 20 Cursos](https://github.com/DevDavidFernandes/meu-aprendizado-udemy/tree/main/curso-web-completo)
+* **Status:** 🚧 Em progresso
+* **Principais Tecnologias:** `HTML5`, `CSS3`, `SASS`, `Bootstrap`, `JS (ES6)`, `PHP`, `MySQL`, `Git`.
+* **Descrição:** Uma jornada do zero ao profissional em desenvolvimento Full Stack.
+* [👉 Ver progresso detalhado deste curso](./curso-web-completo/README.md)
 
 ---
 
-## 📈 Progresso do Curso
+## 🚀 Como navegar por aqui?
 
-- [x] Introdução ao Desenvolvimento Web
-- [x] HTML5 & CSS3 (Básico ao Avançado)
-- [ ] JavaScript Moderno (ES6+)
-- [ ] PHP & Orientação a Objetos
-- [ ] MySQL & Banco de Dados
-- [ ] Desenvolvimento de APIs
+Cada pasta principal representa um curso específico. Dentro delas, você encontrará:
+1. **Exercícios:** Pequenos códigos para fixação de sintaxe.
+2. **Projetos:** Aplicações reais construídas durante o curso.
+3. **Anotações:** Insights importantes sobre as ferramentas.
+
+> [!IMPORTANT]
+> **Hub Visual:** Você pode visualizar o resultado dos meus projetos front-end através do meu **Hub de Projetos** hospedado no GitHub Pages:
+> 🔗 [Acesse meu Hub aqui!](https://devdavidfernandes.github.io/meu-aprendizado-udemy/)
 
 ---
 
-## 🚀 Como rodar os projetos localmente
+## 🛠️ Tecnologias que estou dominando
 
-1. Clone o repositório:
-   ```bash
-   git clone [https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git](https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git)
-   ```
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black)
+![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white)
+![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
+![Git](https://img.shields.io/badge/git-%23F05032.svg?style=for-the-badge&logo=git&logoColor=white)
+
+---
+
+## 📬 Contato
+
+Se quiser trocar uma ideia sobre desenvolvimento ou me dar alguma dica de estudo:
+
+- **LinkedIn:** [Seu Nome Aqui](https://www.linkedin.com/in/SEU-LINK)
+- **GitHub:** [@DevDavidFernandes](https://github.com/DevDavidFernandes)
+
+---
+*Atualizado em: Fevereiro de 2024*
