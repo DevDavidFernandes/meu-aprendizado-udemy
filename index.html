@@ -11,39 +11,57 @@
     ></script>
   </head>
   <body>
+
+    <!-- ================= HEADER ================= -->
+    <!-- Área superior com navegação e identificação da página -->
     <header>
-      <h1>Meus Estudos: Udemy</h1>
-      <p>Acompanhamento de cursos da Udemy e projetos práticos.</p>
+      <div class="header-content">
+        <!-- Botão simples para retornar à página inicial -->
+        <a href="index.html" class="btn-voltar"> ← Início </a>
+
+        <!-- Título e descrição do hub -->
+        <div class="header-text">
+          <h1>Meus Estudos: Udemy</h1>
+          <p>Acompanhamento de cursos da Udemy e projetos práticos.</p>
+        </div>
+      </div>
     </header>
 
+
+
+    <!-- ================= CONTEÚDO PRINCIPAL ================= -->
     <main class="container">
+      <!-- Grid responsável por organizar os cards -->
       <section class="grid-projetos">
+        <!-- ===== CARD: Curso Desenvolvimento Web ===== -->
         <div class="card">
-          <div class="card-icon">Desenvolvimento Web Completo</div>
+          <h2 class="card-icon">Desenvolvimento Web Completo</h2>
           <h3>Jorge Sant Ana</h3>
+
+          <!-- Informações gerais do curso -->
           <p>Aulas: 646 | Vídeo: 120 horas no total</p>
-          <a href="./01-html-css/index.html" class="btn">Acessar</a>
+
+          <!-- Link para o hub interno do curso -->
+          <a href="Desenvolvimento Web Completo/hub-web.html" class="btn">
+            Acessar
+          </a>
         </div>
 
+        <!-- ========== CARD: Projetos Práticos ========== -->
         <div class="card">
-          <div class="card-icon">Seção 8</div>
-          <h3>HTML5 e CSS3 Recursos Especiais</h3>
-          <p>
-            Semântica avançada, APIs nativas e efeitos visuais de alta
-            fidelidade.
-          </p>
-          <a href="./02-javascript/index.html" class="btn">Acessar</a>
-        </div>
+          <h2 class="card-icon">Projetos</h2>
 
-        <div class="card">
-          <div class="card-icon">💻</div>
-          <h3>Projetos</h3>
-          <p>Sites completos criado durante o curso.</p>
-          <a href="./projeto-final/index.html" class="btn">Acessar</a>
+          <!-- Descrição dos projetos feitos durante o curso -->
+          <h3>Sites completo criados durante o curso.</h3>
+
+          <!-- Link para página com projetos -->
+          <a href="Projetos/hub-projetos.html" class="btn"> Acessar </a>
         </div>
       </section>
     </main>
 
+    <!-- ================= FOOTER ================= -->
+    <!-- Rodapé informativo -->
     <footer>
       <p>Desenvolvido durante o curso Domine Web da Udemy | 2026</p>
     </footer>
