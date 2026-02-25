@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --cor1: #222c40;
+  --cor2: #8b8c64;
+  --cor3: #f2efdf;
+  --cor4: #e3daab;
+  --cor5: #d1bfab;
+}
+
+body {
+  background-color: #8b8c64;
+  background-image: url("https://www.transparenttextures.com/patterns/fabric-of-squares.png");
+}
+
+.capa {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding-top: 30px;
+  margin-bottom: 15px;
+}
+
+.nav-link {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-link ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-link li {
+  font-size: large;
+  padding: 0 15px;
+}
+
+/* Estilo dos links do menu */
+.nav-link a {
+  position: relative; /* Torna o link o "referencial" pro ::after se posicionar */
+  text-decoration: none; /* Remove o sublinhado padrão */
+  color: #000; /* Cor do texto */
+  padding: 5px; /* Dá um respiro entre o texto e a linha */
+}
+
+/* Criação da linha que vai aparecer quando o mouse passar */
+.nav-link a::after {
+  content: ""; /* Cria o pseudo-elemento vazio, necessário pra ele existir */
+  position: absolute; /* Permite posicionar livremente dentro do <a> */
+  left: 0; /* Começa grudado na lateral esquerda */
+  bottom: 0; /* Encosta a linha na parte de baixo do texto */
+  width: 0%; /* Inicialmente, a linha tem largura zero (invisível) */
+  height: 2px; /* Espessura da linha */
+  background: #000; /* Cor da linha */
+  transition: width 0.3s ease; /* Anima a mudança de largura quando o hover acontece */
+}
+
+/* Efeito quando o mouse passa por cima do link */
+.nav-link a:hover::after {
+  width: 100%; /* A linha se expande até cobrir toda a largura do texto */
+}
+
+/* COnteudo da pag */
+
+.conteudo {
+  background-color: #f2efdf;
+  border-radius: 10px;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.443);
+  width: 61vw;
+  margin: auto;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.conteudo h2,
+p {
+  text-align: start;
+  padding: 15px;
+}
+
+.conteudo h2 {
+  color: var(--cor2);
+}
+
+.conteudo img {
+  border: 5px solid var(--cor2);
+  width: 500px;
+  margin: auto;
+
+}
+
+footer {
+  text-align: center;
+  padding-top: 20px;
+  font-weight: bold;
+}

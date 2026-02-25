@@ -9,16 +9,18 @@ Este repositório é o meu **Hub Central de Estudos**. Aqui documento minha evol
 Abaixo estão os cursos que concluí ou que estou cursando no momento:
 
 ### 🌐 [Desenvolvimento Web Completo 2024 - 20 Cursos](https://github.com/DevDavidFernandes/meu-aprendizado-udemy/tree/main/curso-web-completo)
-* **Status:** 🚧 Em progresso
-* **Principais Tecnologias:** `HTML5`, `CSS3`, `SASS`, `Bootstrap`, `JS (ES6)`, `PHP`, `MySQL`, `Git`.
-* **Descrição:** Uma jornada do zero ao profissional em desenvolvimento Full Stack.
-* [👉 Ver progresso detalhado deste curso](./curso-web-completo/README.md)
+
+- **Status:** 🚧 Em progresso
+- **Principais Tecnologias:** `HTML5`, `CSS3`, `SASS`, `Bootstrap`, `JS (ES6)`, `PHP`, `MySQL`, `Git`.
+- **Descrição:** Uma jornada do zero ao profissional em desenvolvimento Full Stack.
+- [👉 Ver progresso detalhado deste curso](./curso-web-completo/README.md)
 
 ---
 
 ## 🚀 Como navegar por aqui?
 
 Cada pasta principal representa um curso específico. Dentro delas, você encontrará:
+
 1. **Exercícios:** Pequenos códigos para fixação de sintaxe.
 2. **Projetos:** Aplicações reais construídas durante o curso.
 3. **Anotações:** Insights importantes sobre as ferramentas.
@@ -44,8 +46,10 @@ Cada pasta principal representa um curso específico. Dentro delas, você encont
 
 Se quiser trocar uma ideia sobre desenvolvimento ou me dar alguma dica de estudo:
 
-- **LinkedIn:** [Seu Nome Aqui](https://www.linkedin.com/in/SEU-LINK)
+- **LinkedIn:** [David Fernandes Ramos](www.linkedin.com/in/davidfernandesramos)
+
 - **GitHub:** [@DevDavidFernandes](https://github.com/DevDavidFernandes)
 
 ---
-*Atualizado em: Fevereiro de 2024*
+
+_Atualizado em: Fevereiro de 2024_

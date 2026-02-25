@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Nunito Sans", sans-serif;
+  height: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 20px;
+  height: 50px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.nav-link {
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+}
+
+.nav-link li {
+  padding: 0 5px;
+}
+
+.nav-link a {
+  text-decoration: none;
+  transition: 0.3s;
+  color: #0d0d0d;
+  padding: 15px;
+}
+
+.nav-link a:hover {
+  color: whitesmoke;
+  background-color: #363f59;
+  border-radius: 50px;
+}
+
+/* Capa do site */
+
+.capa {
+  background-image: url(../src/img/capa.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center right;
+  height: 70vh;
+  width: 70vw;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.lista {
+  list-style-position: inside;
+  width: 70vw;
+  margin: auto;
+  margin-bottom: 15px;
+}
+hr {
+  width: 1030px;
+  margin: auto;
+  margin-top: 20px;
+}
+.text {
+  width: 70vw;
+  margin: auto;
+}
+
+.text p {
+  margin-top: 20px;
+}
+
+.text h2 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+footer {
+width: 100%;
+justify-content: center;
+display: flex;
+margin-top: 25px;
+}
