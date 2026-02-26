@@ -4,8 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Seletores</title>
+    <style>
+        /* ================= Seletor Universal ================= */
+        /* Aplica-se em todos os elementos no documento */
+        * {
+            border: 1px solid red;
+        }
+
+        /* ================= Seletor de texto ================= */
+        /* Seleciona elementos pelo tipo */
+        h1 {
+            color: green;
+        }
+
+        /* ================= Seletor de classe ================= */
+        /* Seleciona um elemento cujo atributo class tem o mesmo valor depois do ponto*/
+        .verde {
+            color: green;
+        }
+
+        p.verde {
+            color: green;
+        }
+
+        /* ================= Seletor de ID ================= */
+        /* Seleciona um elemento cujo atributo ID tem o valor especificado após o simbolo de cerquiilha ou jogo da velha */
+    </style>
 </head>
 <body>
-    
+    <div>
+        <h1>Titulo da pagina</h1>
+        <p>Paragrafo da pagina</p>
+    </div>
+
+    <span class="verde">Teste</span>
+    <p>Teste Paragrafo</p>
 </body>
 </html>
