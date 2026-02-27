@@ -42,6 +42,12 @@
         color: red;
         text-decoration: none;
       }
+
+      /* ================= Seletor de Descendente ================= */
+      /* Seleciona um elemento que é descendente de outro elemento especificado (e não apenas filho direto do elemento) */
+      p a {
+        color: aqua;
+      }
     </style>
   </head>
   <body>
@@ -55,7 +61,7 @@
 
     <ul>
       <li>
-        <a href="#">Home</a>
+        <span><a href="#">Home</a></span>
       </li>
       <li>
         <a href="#">Sobre</a>
@@ -63,5 +69,11 @@
     </ul>
 
     <a href="#">Link de teste</a>
+
+    <p>
+        <h2>Titulo
+        </h2>
+      <a href="#">Clique aqui</a>
+    </p>
   </body>
 </html>
