@@ -6,27 +6,52 @@
     <title>Navegação Vertical</title>
     <style>
       /* ================= RESET / CONFIG GLOBAIS ================= */
-      * {
-        border: 0;
+      *,
+      *::before,
+      *::after {
+        margin: 0;
         padding: 0;
+        box-sizing: border-box;
       }
 
-      ul {
-        border: 1px solid black;
+      .sidebar {
+        width: 220px;
       }
 
-      li {
+      .sidebar ul {
+        padding: 20px;
+      }
+
+      .sidebar li {
         list-style: none;
+      }
+
+      .sidebar a {
+        display: block;
+        padding: 12px 16px;
+        text-decoration: none;
+        background: #ffff5c;
+        color: #000;
+        transition:
+          background 0.2s,
+          color 0.2s;
+      }
+
+      .sidebar a:hover {
+        background: orange;
+        color: white;
       }
     </style>
   </head>
   <body>
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Sobre</a></li>
-      <li><a href="#">Serviços</a></li>
-      <li><a href="#">Notícias</a></li>
-      <li><a href="#">Contato</a></li>
-    </ul>
+    <nav class="sidebar">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Serviços</a></li>
+        <li><a href="#">Notícias</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+    </nav>
   </body>
 </html>
