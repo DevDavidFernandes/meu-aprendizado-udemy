@@ -4,46 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Herança e Especificidade</title>
+    <link rel="stylesheet" href="css/Herança.css">
     <style>
-      /* ================= Herança ================= */
-      /* Ao formatar utilizando o elemento BODY ele vai aplicar a todos os outros elementos dentro dele, como uma herança, exceto com "background" e "border" */
-      body {
-        color: red;
-      }
-
-      /* ================= Especificidade ================= */
-      /* Em caso de existir dois seletores iguais o ultimo é o que vai ser aplicado, com exeção da utilização do atributo "!important"  */
-
-      p {
-        color: red /* !important */;
-      }
-
-      p {
-        color: blue;
-      }
-
-      /* Se um seletor for mais especifico que outro a regra mais específica sera aplicada */
-
-      * {
-        color: red;
-      }
-
-      /* Importancia 3 */
-      h2 {
-        color: blue;
-      }
-
-      /* Importancia 2 */
-      h2.verde {
-        color: green;
-      }
-
-      /* Importancia 1 */
-      /* O amarelo vai ser aplicado pois é o mais especifico dos seletores */
-      /* ID é mais especifico do que o CLASS */
-      h2#amarelo {
-        color: yellow;
-      }
+    
     </style>
   </head>
   <body>
