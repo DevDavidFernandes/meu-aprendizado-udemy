@@ -10,7 +10,23 @@
 
 .sidebar ul {
   border: 2px blue solid;
+  /* 
+  O atributo display no CSS define como um elemento HTML será exibido e como ele se comporta no fluxo do layout.Ele controla tanto o tipo de caixa externa (bloco, inline, flex, grid etc.) quanto o tipo de layout interno (como os filhos serão organizados). 
+  */
   display: flex;
+  /* 
+  block	        O elemento ocupa toda a largura disponível e começa em uma nova linha.	<div>, <p>, <section>
+  inline	      O elemento ocupa apenas o espaço necessário e não quebra linha.	        <span>, <a>
+  inline-block	Mistura de inline e block: não quebra linha, mas aceita largura/altura.	Botões, ícones
+  none	        Oculta o elemento (não ocupa espaço no layout).	                        Mostrar/ocultar menus
+  flex	        Ativa o Flexbox para organizar filhos de forma flexível.	              Layouts responsivos
+  inline-flex	  Flexbox, mas o container se comporta como inline.	                      Menus horizontais
+  grid	        Ativa o CSS Grid para organizar filhos em linhas e colunas.	            Layouts complexos
+  inline-grid	  Grid, mas o container se comporta como inline.	                        Pequenos grids embutidos
+  table	        Faz o elemento se comportar como <table>.	                              Estruturas tabulares
+  list-item	    Faz o elemento se comportar como <li>.	                                Listas personalizadas
+  */
+
   justify-content: space-between;
 }
 
