@@ -4,3 +4,26 @@
   padding: 0;
 }
 
+.sidebar {
+  border: 2px red solid;
+}
+
+.sidebar ul {
+  border: 2px blue solid;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sidebar li {
+  border: 2px green solid;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 5vw;
+  min-height: 5vh;
+}
+.sidebar li a {
+  border: 2px yellow solid;
+  text-decoration: none;
+}
