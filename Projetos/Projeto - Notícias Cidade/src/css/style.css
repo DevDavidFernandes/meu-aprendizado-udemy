@@ -13,5 +13,18 @@ body {
   font-family: "Nunito", sans-serif;
   font-weight: 400;
   font-style: normal;
-  background-color: grey;
+  background-color: var(--cor-fundo-azul);
+}
+
+/* ================== Root ================== */
+
+:root {
+  /* Fontes */
+  --font-primary: "Nunito", sans-serif;
+  --font-secondary: "Pontano Sans", sans-serif;
+
+  /* Paleta de Cores */
+  --cor-fundo-vermelho: #B1002E;
+  --cor-destaque-vermelho: #E10037;
+  --cor-fundo-azul: #294C71;
 }
